@@ -167,7 +167,7 @@ footer >p{
 
 /* Mobile adjustments */
 @media (max-width: 576px) {
-    .box1 {
+    .box1,#r8 {
         padding: 0 25px;   /* mobile pe extra gap left/right */
     }
 }
