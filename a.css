@@ -1,0 +1,246 @@
+*{
+    font-family: "Oswald";
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    
+} 
+.navbar{
+    background-color: #335792;
+}
+   
+
+a{
+    text-decoration: none;
+}
+#q1{
+    /* height: 9vh; */
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    /* background-image: url("cvr.jpeg"); */
+    /* background-size: 500vw 300vh; */
+    top: 0px;
+    flex-wrap: wrap;
+    z-index: 3;
+    background-color: #335792;
+}
+#q2{
+   justify-content: flex-start;
+   display: flex;
+   width: 20vw;
+}
+#q3{
+    justify-content: space-around;
+    display: flex;
+    width: 40vw;
+    align-items: center;
+ 
+}
+
+#w1{
+    background-image: url("cvr1.jpeg");
+    height: 50vh;  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+   
+  
+}
+#w2 {
+font-size: clamp(24px, 6vw, 68px); /* min 24px, max 68px, screen ke hisaab se adjust */
+color: white;
+text-decoration: underline;
+background-color: #254b88;
+padding: 0.3rem 0.5rem;  /* px/rem units mobile-friendly hote hain */
+text-align: center;      /* mobile pe text properly center ho */
+}
+
+    
+
+footer{
+    text-align: right;
+    background-color: #f5f5f5;
+    /* height: 15vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+footer >p{
+    font-size: 0.9rem;
+    color: #1c4587;
+    margin-right: 7vw;
+}
+/* #r1,#r6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+/* Section Headings */
+#r2, #r4, #r7 {
+    text-align: center;
+    font-size: clamp(1.2rem, 3vw, 2rem); /* responsive font size */
+    color: #1c4587;
+    margin: 2rem auto;
+    padding: 0 5%;
+    font-weight: bold;
+}
+
+/* Paragraph text (long content) */
+#r3, #r5, #r8 {
+    text-align: justify;
+    font-size: clamp(1rem, 2.2vw, 1.4rem); /* auto adjust text */
+    color: #1c4587;
+    margin: 2rem auto;
+    padding: 0 5%;
+    line-height: 1.6;   /* better readability */
+    max-width: 900px;   /* content width limited on large screens */
+}
+
+/* Content Row Wrappers */
+#r6, #r1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* stack on small screens */
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+#x2{
+    background-color: #f1efef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🔹 Doctor sections always stacked and centered */
+#x3, #x4, #x5 {
+    display: flex;
+    flex-direction: column;   /* image on top, text below */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Image styles */
+.x1 img {
+    width: 100%;
+    height: auto;
+    max-width: 270px;         /* keep decent size */
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;           /* center horizontally */
+}
+
+/* Text box */
+.x4 {
+    width: 100%;
+    max-width: 600px;         /* don’t stretch too much */
+    margin-top: 1rem;
+}
+
+.x5 {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: bold;
+    color: #1c4587;
+}
+
+.x6 {
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    color: #1c4587;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+ }
+ .box{
+     margin-top: 4vh;
+     margin-left: 1vw;
+     margin-bottom: 4vh;
+     align-self: center;
+     text-align: center;
+     margin-right: 1vw;
+ }
+
+/* Services text box */
+.box1 {
+    margin-top: 4vh;
+    color: #1c4587;
+    align-self: center;
+    text-align: justify;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    line-height: 1.6;
+    padding: 0 15px;   /* <-- yeh main fix hai */
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+    .box1 {
+        padding: 0 25px;   /* mobile pe extra gap left/right */
+    }
+}
+
+
+
+.service-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+    .service-img {
+        max-width: 200px;   /* smaller images on small phones */
+    }
+}
+
+
+ 
+ #p1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 10vw;
+    padding-right: 11vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #1c4587;
+}
+#mx {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #1c4587;
+}
+
+/* Mobile ke liye responsive */
+@media (max-width: 768px) {
+  #mx {
+    font-size: 16px;
+    padding: 10px 15px; /* dono side space */
+  }
+
+  #mx ul {
+    padding-left: 20px; /* bullets left aligned but text not sticking */
+  }
+}
